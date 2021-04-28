@@ -14,6 +14,7 @@ public class Practice_6 {
 //        String str3 = new String("123");
 //        String str4 = new String("123");
 //        System.out.println(str3.equals(str4));//false
+        //AAA
         Date date = new Date(9999999999999L);
         System.out.println(date);
     }
