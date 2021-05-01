@@ -22,4 +22,11 @@ public class Man extends Person{
     public void showage(){
         System.out.println(age);
     }
+
+    @Override
+    public String toString() {
+        return "Man{" +
+                "age=" + age +
+                '}';
+    }
 }

@@ -12,10 +12,9 @@ public class Test {
 //        p1.eat();
 //        p1.out("2");
 //        p1.out(2);
-
+//
 //        Person p2 = new Woman();
 //        Man m3 = (Man)p2;
-
 
         Man man = new Man();
         man.showage();
@@ -23,6 +22,7 @@ public class Test {
         System.out.println(person==man);
         System.out.println(person.age);
         person.showage();
+        System.out.println(man.toString());
 
     }
 
