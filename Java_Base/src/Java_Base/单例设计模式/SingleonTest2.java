@@ -21,6 +21,11 @@ class Order{
 
     //3.声明public、static的返回当前类对象的方法
     public static Order getInstance() {
+        if(instance==null){
+            instance = new Order();
+        }else
+            return instance;
+
         return instance;
     }
 }
