@@ -1,4 +1,4 @@
-package Java_Base.ExceptionDeal;
+package Java_Base.异常处理.临时;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,12 +17,12 @@ public class Exception2 {
         }
     }
     public static void test() throws IOException {
-        File file = new File("src/Java_Base/ExceptionDeal/Hello.txt");
+        File file = new File("src/Java_Base/异常处理/临时/Hello.txt");
         System.out.println(file.getAbsolutePath());
         FileInputStream fis = new FileInputStream(file);
         int data = fis.read();
         while(data != -1){
-            System.out.printf(String.valueOf((char)data));
+            System.out.print(String.valueOf((char)data));
             data = fis.read();
         }
         fis.close();

@@ -1,4 +1,4 @@
-package Java_Base.ExceptionDeal;
+package Java_Base.异常处理.临时;
 
 /**
  * @Author WiKunZ
