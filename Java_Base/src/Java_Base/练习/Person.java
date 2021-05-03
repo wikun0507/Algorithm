@@ -1,6 +1,4 @@
-package Java_Base;
-
-import java.util.Objects;
+package Java_Base.练习;
 
 /**
  * @author Administrator
