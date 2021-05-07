@@ -1,4 +1,4 @@
-package LeetCode.其他.粉刷房子Ⅲ;
+package LeetCode.困难.粉刷房子Ⅲ;
 
 /**
  * @Author WiKunZ

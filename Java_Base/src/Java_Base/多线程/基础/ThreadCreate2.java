@@ -1,4 +1,4 @@
-package Java_Base.多线程;
+package Java_Base.多线程.基础;
 
 /**
  * @Author WiKunZ

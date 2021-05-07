@@ -1,4 +1,4 @@
-package LeetCode.其他.青蛙过河;
+package LeetCode.困难.青蛙过河;
 
 /**
  * @Author WiKunZ
