@@ -2,6 +2,8 @@ package Java_Base.常用类.String;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 /**
  * @Author WiKunZ
  * @Date 2021/5/8-19:24
@@ -75,6 +77,23 @@ public class StringTest {
         Person p3 = new Person(new String("Tom"),12);
         System.out.println(p1.name == p2.name);//True  原因：字面量的方式定义
         System.out.println(p1.name == p3.name);//False  原因：p3.name是通过new的方式定义
+    }
+
+    @Test
+    public void test3(){
+        char[] ch = {'a','b','c'};
+        String test = new String("good");
+        exchange(test,ch);
+        System.out.println(test+"  "+ Arrays.toString(ch));
+    }
+
+    public void exchange(String str,char[] chars){
+        String tmp = str;
+        System.out.println(str);
+        str = "test ok";
+        System.out.println(str==tmp);
+        System.out.println("tmp的值为:"+tmp);
+        chars[0] = 'b';
     }
 
 }
