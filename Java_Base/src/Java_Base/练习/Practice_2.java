@@ -17,17 +17,17 @@ public class Practice_2 {
         /**
          * 输出所有的水仙花数：三位数，每一位数的立方相加后等于其本身
          */
-//        for(int i = 1;i<9;i++){
-//            for(int j = 0;j<9;j++){
-//                for(int k = 0;k<9;k++){
-//                    double tmp = i*100+j*10+k;
-//                    double pow = Math.pow(i,3)+Math.pow(j,3)+Math.pow(k,3);
-//                    if (tmp == pow){
-//                        System.out.println("水仙花:"+tmp);
-//                    }
-//                }
-//            }
-//        }
+        for(int i = 1;i<9;i++){
+            for(int j = 0;j<9;j++){
+                for(int k = 0;k<9;k++){
+                    double tmp = i*100+j*10+k;
+                    double pow = Math.pow(i,3)+Math.pow(j,3)+Math.pow(k,3);
+                    if (tmp == pow){
+                        System.out.println("水仙花:"+tmp);
+                    }
+                }
+            }
+        }
         /**
          * 最小公倍数和最大公约数优化算法
          */
