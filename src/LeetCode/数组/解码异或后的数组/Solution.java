@@ -7,6 +7,9 @@ import java.util.Arrays;
  * @Date 2021/5/6-16:02
  */
 public class Solution {
+    /**
+     *方式1：前缀和方式
+     */
     public static int[] decode(int[] encoded, int first) {
         if (encoded.length==0){
             return null;
