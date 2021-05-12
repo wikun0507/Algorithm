@@ -43,7 +43,7 @@ public class DateApiTest {
         Date date2 = new Date(1620549570765L);
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy年-MM月-dd日-HH时-mm分-ss秒");
         System.out.println(date2.toString());//Sun May 09 16:39:30 CST 2021
-        System.out.println(simpleDateFormat.format(date2));//16:39:30
+        System.out.println(simpleDateFormat.format(date2));//2021年-05月-09日-16时-39分-30秒
         System.out.println("*****************************************");
 
         SimpleDateFormat simpleDateFormat2 = new SimpleDateFormat("yyyy年MM月dd日HH时mm分ss秒");
