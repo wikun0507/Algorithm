@@ -56,6 +56,7 @@ public class Solution {
         if (strs == null || strs.length == 0) return "";
         StringBuilder res = new StringBuilder();
         Arrays.sort(strs);
+        System.out.println(Arrays.toString(strs));
 //        for(int i = 0;i<strs.length;i++){
 //            System.out.println(strs[i]);
 //        }

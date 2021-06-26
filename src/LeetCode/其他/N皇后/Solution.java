@@ -16,6 +16,7 @@ public class Solution {
         for(int i = 0;i<n;i++){
             Arrays.fill(chars[i],'.');
         }
+
         backTrace(result,chars,0);
         return result;
     }
@@ -23,6 +24,7 @@ public class Solution {
     public static void backTrace(List<List<String>> result,char[][] tmp,int row){
         if(row == tmp.length){  //注意该行
             result.add(buildString(tmp));
+            System.out.println(result);
             return;
         }
         for(int col = 0;col<tmp[0].length;col++){
@@ -33,7 +35,7 @@ public class Solution {
             }
         }
     }
-
+    //判断皇后的位置是否可行，不可行就回溯
     public static boolean isValid(char[][] tmp,int row,int col){
         //坐标位置的上面有没有皇后
         //下段代码漏写
@@ -65,8 +67,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(solveNQueens(4).size());
-        System.out.println(solveNQueens(5).size());
+        System.out.println(solveNQueens(4).size()); //显示N皇后有几个解
+//        System.out.println(solveNQueens(5).size());
     }
 
 }
